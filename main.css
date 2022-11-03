@@ -1,14 +1,39 @@
-h2{
-font-family:Georgia, 'Times New Roman', Times, serif;}
-h2 {background-color: bisque;}
-.ProfileImage {float: right;}
-.ProfileImage2 {float:right;}
-.ProfileImage {padding-right: 3%;}
-.ProfileImage2 {padding-right: 3%;}
-.ProfileImage2 {margin-bottom: 1%}
-.Profilegif {float: right;}
-.Profilegif {padding-right: 3%;}
-.Profilegif {margin-bottom: 2%;}
-.Profilegif {margin-left: 1%;}
-.ProfileImage {margin-left: 1%;}
-.ProfileImage2 {margin-left: 1%;}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  background-color: bisque;
+}
+.ProfileImage {
+  float: right;
+}
+.ProfileImage2 {
+  float: right;
+}
+.ProfileImage {
+  padding-right: 3%;
+}
+.ProfileImage2 {
+  padding-right: 3%;
+}
+.ProfileImage2 {
+  margin-bottom: 1%;
+}
+.Profilegif {
+  float: right;
+}
+.Profilegif {
+  padding-right: 3%;
+}
+.Profilegif {
+  margin-bottom: 2%;
+}
+.Profilegif {
+  margin-left: 1%;
+}
+.ProfileImage {
+  margin-left: 1%;
+}
+.ProfileImage2 {
+  margin-left: 1%;
+}
