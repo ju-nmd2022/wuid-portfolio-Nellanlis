@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 3rem 1fr 2rem;
+  grid-template-areas:
+    "header header header"
+    ". content ."
+    "footer footer footer";
+  min-height: 100vh;
+}
+.header {
+  background-color: bisque;
+  grid-area: header;
+  font-size: xx-large;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.content {
+  background-color: bisque;
+  grid-area: content;
+}
+.footer {
+  background-color: bisque;
+  grid-area: footer;
+}
+.first {
+  padding-left: 1%;
+  display: flex;
+}
+.second {
+  padding-left: 1%;
+  display: flex;
+}
+.third {
+  padding-left: 1%;
+  display: flex;
+}
+.fourth {
+  padding-left: 1%;
+  display: flex;
+}
+.fifth {
+  padding-left: 1%;
+  display: flex;
+}
+.describe {
+  padding-left: 2%;
+  margin-right: 20%;
+  font-size: larger;
+}
+.describe2 {
+  padding-left: 2%;
+  margin-right: 20%;
+  font-size: larger;
+}
+.describe3 {
+  padding-left: 2%;
+  margin-right: 20%;
+  font-size: larger;
+}
+.describe4 {
+  padding-left: 2%;
+  margin-right: 20%;
+  font-size: larger;
+}
+.describe5 {
+  padding-left: 2%;
+  margin-right: 20%;
+  font-size: larger;
+}
