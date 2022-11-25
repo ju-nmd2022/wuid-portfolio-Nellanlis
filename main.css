@@ -1,18 +1,23 @@
-h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+html,
+body {
+  margin: 0%;
+  background-color: rgb(175, 217, 219);
 }
 h2 {
-  background-color: bisque;
+  background-color: cadetblue;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .ProfileImage {
   float: right;
+  padding-right: 3%;
+  margin-bottom: 2%;
+  margin-left: 1%;
 }
 .ProfileImage2 {
   float: right;
 }
-.ProfileImage {
-  padding-right: 3%;
-}
+
 .ProfileImage2 {
   padding-right: 3%;
 }
@@ -31,9 +36,116 @@ h2 {
 .Profilegif {
   margin-left: 1%;
 }
-.ProfileImage {
-  margin-left: 1%;
-}
 .ProfileImage2 {
   margin-left: 1%;
+}
+.header {
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 10%;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+}
+.mainheader {
+  font-size: xx-large;
+  color: white;
+}
+.aboutjonkoping:hover {
+  text-decoration: underline;
+}
+.mywork:hover {
+  text-decoration: underline;
+}
+.about {
+  color: white;
+}
+.work {
+  color: white;
+}
+.textcenter {
+  font-size: 40px;
+  color: white;
+}
+.herosection {
+  position: relative;
+}
+.textcenter {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+}
+.iam {
+  animation-name: textappearing;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+@keyframes textappearing {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+.youare {
+  animation-name: textappearing;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-delay: 2.1s;
+}
+@keyframes textappearing {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+.weare {
+  animation-name: textappearing;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-delay: 4.1s;
+}
+@keyframes textappearing {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+.whitestar {
+  animation-name: whitestar;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-delay: 5.5s;
+  animation-direction: normal;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  width: 250px;
+}
+@keyframes whitestar {
+  from {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleX(2);
+    transform: scaleY(2);
+  }
+}
+.content {
+  margin-left: 1rem;
+  margin-top: 3rem;
 }
